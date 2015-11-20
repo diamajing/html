@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/style5.css" type="text/css">
+    <style type="text/css">
+   html,body{margin:0;padding:0;}
+   .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+   .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<div id="header">
+    <div class="header1 fl"></div>
+    <div class="header2 fl">
+        <a href="e1.html" class="a1">首页</a>
+    </div>
+    <div class="hh header3 fl">
+        <a href="e2.html" class="a1">关于我们</a>
+    </div>
+    <div class="hh header4 fl">
+        <a href="e3.html" class="a1">课程中心</a>
+    </div>
+    <div class="hh header5 fl">
+        <a href="e4.html" class="a1">新闻中心</a>
+    </div>
+    <div class="hh header6 fl">
+        <a href="e5.html" class="a1">联系我们</a>
+    </div>
+</div>
+<div class="first">
+    <img src="image/banner01_h5vf.jpg"/>
+</div>
+<div id="container">
+    <div class="cheader">
+        <div class="head left fr"><hr/></div>
+        <div class="headcenter fr">联系我们<br/><span>Contact Us</span></div>
+        <div class="headright fr"><hr/></div>
+    </div>
+    <div>
+        <div class="cleft fl" id="dituContent"> <!-- <img src="image/cperson_03.png">  --></div>
+        <div class="cright fl">
+            <div class="top">
+                <ul>
+                    <li>联系电话：0760-22517083</li>
+                    <li>传真：0706-86744123</li>
+                    <li>QQ：14837715（授权）190452532（制定）</li>
+                    <li>Email：service#pageadmin.net</li>
+                    <li>地址：广东省中山市南头金湾广场B座16号</li>
+                </ul>
+            </div>
+            <div class="center">试听免费课程</div>
+            <div class="bottom">
+                <form action=".php" method="post">
+                    <label for="name">
+                        <div class="box">您的姓名<span>*</span></div>
+                    </label>
+                    <input class="input1" id="name" type="text">
+                    <label for="tel">
+                        <div class="box">您的电话<span>*</span></div>
+                    </label>
+                    <input class="input1" id="tel" type="tel">
+                    <label for="course">
+                        <div class="box">试听课程<span>*</span></div>
+                    </label>
+                    <input id="course" class="input1" type="text"><br>
+                    <div class="input1">
+                        <div class="test1 fl block"><label for="test">验证码<span>*</span></label></div>
+                        <input class="test2 fl block" id="test" type="text">
+                        <div class="test3 fl block1"><img src="image/z.png">点击更换<div/>
+                    </div>
+                 </div>
+                 <div class="cb"></div>
+                 <div class="last">
+                    <input class="fl lastone" type="submit" value="提交">
+                    <input class="fl" type="reset" value="重置">
+                 </div>
+                <div class="cb"></div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" align="center">
+    <div class="footer1">
+        <a href="e1.html" class="a3">首页</a>
+        <a href="e2.html" class="a3">关于我们</a>
+        <a href="e3.html" class="a3">课程中心</a>
+        <a href="e4.html" class="a3">新闻中心</a>
+        <a href="e5.html" class="a3">联系我们</a>
+    </div>
+    <div class="footer2">
+        <span class="fspan2">电话:0760-22517081</span>
+        <span class="fspan2">QQ:14837715</span>
+        <span class="fspan2">Email:abcfsewgryfvd@qq.com</span>
+    </div>
+    <div class="footer3">
+        本模板基于PageAdmin网站管理系统制作
+    </div>
+</div>
+<div class="dd" align="center">
+    <span class="ds1">Powered by </span>
+    <span class="ss"> PageAdmin CMS</span>
+</div>
+<script type="text/javascript">
+   //创建和初始化地图函数：
+   function initMap(){
+       createMap();//创建地图
+       setMapEvent();//设置地图事件
+       addMapControl();//向地图添加控件
+       addMarker();//向地图中添加marker
+   }
+   
+   //创建地图函数：
+   function createMap(){
+       var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+       var point = new BMap.Point(115.949652,28.693851);//定义一个中心点坐标
+       map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+       window.map = map;//将map变量存储在全局
+   }
+   
+   //地图事件设置函数：
+   function setMapEvent(){
+       map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+       map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+       map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+       map.enableKeyboard();//启用键盘上下左右键移动地图
+   }
+   
+   //地图控件添加函数：
+   function addMapControl(){
+       //向地图中添加缩放控件
+var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+map.addControl(ctrl_nav);
+       //向地图中添加缩略图控件
+var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+map.addControl(ctrl_ove);
+       //向地图中添加比例尺控件
+var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+map.addControl(ctrl_sca);
+   }
+   
+   //标注点数组
+   var markerArr = [{title:"百恒网络",content:"电话：0791-88117053<br/>手机：15079002975",point:"115.950312|28.693447",isOpen:1,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+  ];
+   //创建marker
+   function addMarker(){
+       for(var i=0;i<markerArr.length;i++){
+           var json = markerArr[i];
+           var p0 = json.point.split("|")[0];
+           var p1 = json.point.split("|")[1];
+           var point = new BMap.Point(p0,p1);
+  var iconImg = createIcon(json.icon);
+           var marker = new BMap.Marker(point,{icon:iconImg});
+  var iw = createInfoWindow(i);
+  var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+  marker.setLabel(label);
+           map.addOverlay(marker);
+           label.setStyle({
+                       borderColor:"#808080",
+                       color:"#333",
+                       cursor:"pointer"
+           });
+  
+  (function(){
+   var index = i;
+   var _iw = createInfoWindow(i);
+   var _marker = marker;
+   _marker.addEventListener("click",function(){
+       this.openInfoWindow(_iw);
+      });
+      _iw.addEventListener("open",function(){
+       _marker.getLabel().hide();
+      })
+      _iw.addEventListener("close",function(){
+       _marker.getLabel().show();
+      })
+   label.addEventListener("click",function(){
+       _marker.openInfoWindow(_iw);
+      })
+   if(!!json.isOpen){
+    label.hide();
+    _marker.openInfoWindow(_iw);
+   }
+  })()
+       }
+   }
+   //创建InfoWindow
+   function createInfoWindow(i){
+       var json = markerArr[i];
+       var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+       return iw;
+   }
+   //创建一个Icon
+   function createIcon(json){
+       var icon = new BMap.Icon("http://map.baidu.com/image/us_cursor.gif", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+       return icon;
+   }
+   
+   initMap();//创建和初始化地图
+</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.cb{
+    clear: both;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#header{
+    margin-top: 10px;
+}
+.a1:hover{
+    color: orange;
+}
+.header1{
+    width:356px;
+    height: 54px;
+    margin-left: 85px;
+    background: url(../image/logo.jpg) no-repeat 0px 0px;
+}
+.header2{
+    margin-left: 470px;
+    margin-top: 20px;
+}
+.hh{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.first img{
+    width: 100%;
+    margin-top: 5px;
+}
+#container{
+    padding: 0px 140px;
+    height: 707px;
+}
+.cheader{
+    height: 100px;
+}
+.cheader hr{
+    position: relative;
+    top: 35px; ;
+    width: 450px;
+    border: dashed 1px #ccc;
+}
+.cheader .headcenter{
+   position: relative;
+    text-align: center;
+    top: 26px;
+    padding:0px 10px 0px 15px;
+    font: bold 20px "黑体";
+}
+.cheader .headcenter span{
+
+    font: bold 20px "黑体";
+    color: #888;
+}
+.cleft{
+    margin-right: 40px; 
+    width: 500px ;
+    height: 600px;
+    background-color: #ccc;
+}
+/* .pleft{
+    width: 500px;
+    height: 600px;
+    background: #ccc;
+} */
+.cright{
+    width:520px ;
+    height: 600px;
+}
+.cright .top{
+    width: 520px;
+    height: 160px;
+    background-color:#f5f5f5 ;
+    border: dashed 1px #888888;
+}
+.cright .top ul,li{
+    font: 15px "黑体";
+    list-style: none;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.cright .center{
+    color: #888888;
+    font:bold 18px "黑体";
+    text-align: center;
+    padding-top: 15px;
+    height: 45px;
+}
+.cright .bottom{
+    font: 16px "黑体";
+    padding:40px 0px 0px 40px;
+    height: 335px;
+    border: dashed 1px #888888;
+    background: #f5f5f5 url("../image/lianxi.png");
+}
+.bottom span{
+    color: red;
+}
+.box{
+    text-align: center;
+    width: 254px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.bottom .input1{
+    width: 266px;
+    height: 40px;
+    font-size: 15px;
+    z-index: 2;
+}
+.block{
+    margin-top: 20px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+.block1{
+    margin-top: 20px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+.test1{
+    margin-left: 25px;
+}
+.test3{
+    margin-left: 5px;
+    border: solid 1px #888888;
+}
+.last{
+    padding: 15px 0px 0px 40px;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+}
+.last input{
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+    color:white ;
+    font-size: 14px;
+    background-color:#666666
+}
+.footer{
+    color: white;
+    background-color: #414B4A;
+}
+.footer1,.footer2{
+    padding-top: 20px;
+}
+.a3{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.footer3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dd{
+    text-align: center;
+    margin-top: 10px;
+}
+.ss{
+    font-weight: bold;
+}
+.ds1{
+    padding-bottom: 10px;
+}

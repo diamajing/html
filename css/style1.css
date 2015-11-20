@@ -1,0 +1,294 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cl{
+	clear: left;
+}
+.cr{
+	clear: right;
+}
+.cb{
+	clear: both;
+}
+body{
+	font-size: 12px;
+}
+ul,p{
+	margin: 0px;
+	padding: 0px;
+}
+#ab{
+	padding: 20px 125px 20px 125px
+}
+#a li{
+	list-style-image: url(../image/home-bg1.png);
+	list-style-position: inside;
+	font-size: 12px;
+	margin: 10px 0px;
+}
+#a{
+	float: left;
+}
+#a ul{
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+#a span{
+	display: block;
+}
+.aul{
+	margin-left: 10px;
+}
+.aul2{
+	padding-right: 30px;
+}
+#b{
+	float: right;
+}
+#b li{
+	list-style-image: url(../image/home-bg1.png);
+	font-size: 12px;
+	margin: 10px 0px;
+}
+.b1{
+	width: 350px;
+	border: dotted 1px #333;
+	text-align: center;
+	float: left;
+	margin-top: 13px;
+	padding-right: 30px;
+}
+.b1 ul{
+	padding-left: 30px;
+}
+.span1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.span2{
+	font-size: 12px;
+}
+#c{
+	text-align: center;
+	background-color: #F5F5F5;
+	padding: 30px 0px;
+}
+#c img{
+	width: 165px;
+	height: 150px;
+}
+#c div{
+	display: inline-block;
+	text-align: center;
+	margin: 30px 10px;
+	color: #666;
+	font-weight: bold;
+}
+.cp1{
+	font: 25px "黑体";
+	margin-bottom: 30px;
+}
+.cp2{
+	display: block;
+	font-size: 17px;
+	font-family: "黑体"
+}
+.cp3{
+	font-size: 12px;
+}
+#d{
+	background-color: #93C47D;
+	padding: 20px 0px;
+	text-align: center;
+	color: white;
+}
+#d span{
+	display: inline-block;
+}
+.d1{
+	width: 500px;
+	border-top: solid 1px white;
+	padding: 20px 0px;
+	margin: 0px auto;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+.dp1{
+	border: solid 1px white;
+	padding: 5px 0px;
+	margin: 0px auto;
+	width: 120px;
+	border-radius: 7px;
+	font-weight: bold;
+}
+.dp2{
+	margin: 15px 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.dp3{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.dspan1{
+	background-color: white;
+	color: black;
+	font-size: 12px;
+	padding: 8px 18px;
+
+}
+.dspan2{
+	background-color: #F1C232;
+	color: white;
+	font-size: 12px;
+	padding: 8px 18px;
+}
+
+#e{
+	background-color: #FEE157;
+	height: 430px;
+}
+#e li{
+	border-bottom: dotted 1px #999;
+	list-style-image: url(../image/Problem-bg.png);
+	list-style-position: inside;
+	font-size: 12px;
+	margin: 10px 0px;
+	padding: 3px;
+	color: #666;
+}
+#e ul{
+	border: dotted 1px #999;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.e1{
+	width: 710px;
+	display: inline-block;
+	margin: 50px 0px 0px 125px;
+}
+.ep1{
+	margin-bottom: 18px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #666;
+}
+.e2{
+	display: inline-block;
+	border: dotted 1px #999999;
+	padding: 20px;
+}
+.e2 span{
+	display: block;
+	margin: 5px auto;
+}
+.e2input{
+	display: block;
+	margin: 5px auto;
+	width: 260px;
+	height: 28px;
+	border: dotted 1px #999;
+}
+.e2 span{
+	color: #666;
+	font-size: 14px;
+	margin: 5px 0px;
+}
+.e3 input{
+	display: inline-block;
+	border: dotted 1px #999;
+	width: 75px;
+	height: 25px;
+	margin: 10px auto;
+}
+.e3 a{
+	border: solid 1px #C0C0C0;
+	padding: 10px 0px;
+}
+.e4{
+	float: right;
+	text-align: center;
+	margin: 53px 125px 0px 0px;
+}
+.e4 font{
+	color: #FE3F1B;
+}
+.e5 input{
+	background-color: #666;
+	color: white;
+	display: inline-block;
+	width: 100px;
+	border: 0px;
+	padding: 5px 15px;
+	margin-top: 10px;
+}
+.footer{
+    color: white;
+    background-color: #414B4A;
+}
+.footer1{
+	padding-top: 20px;
+
+}
+.footer2{
+    padding-top: 20px;
+}
+.a3{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.footer3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#header{
+	margin-top: 10px;
+}
+#header .header1{
+    width:356px;
+    height: 54px;
+    margin-left: 85px;
+    background: url(../image/logo.jpg) no-repeat 0px 0px;
+}
+#header .header2{
+    margin-left: 470px;
+    margin-top: 20px;
+}
+#header .hh{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.first img{
+	width: 100%;
+	margin-top: 5px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.dd{
+    text-align: center;
+    margin-top: 10px;
+}
+.ss{
+    font-weight: bold;
+}
+.ds1{
+    padding-bottom: 10px;
+}
+.a1:hover{
+    color: orange;
+}
